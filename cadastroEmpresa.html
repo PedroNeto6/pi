@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro empresa</title>
+    <style>
+        #fd{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+        h4{
+            text-align: center;
+        }
+       h3{
+        text-align: unset;
+       }
+        
+    </style>
+</head>
+<body>
+    <h3>Trampou.</h3>
+    <h1>Faça seu negocio crescer com o melhor profissional</h1>
+    <h4>Conectamos você com milhares de profissionais capacitados.</h4>
+   <fieldset id="fd">
+    <form action="cadastro">
+        <input type="text" placeholder="Digite Seu CNPJ">
+        <br>
+        <input type="text" placeholder="Razão Social">
+        <br>
+        <label for="datafundação">Data de fundação</label>
+        <br>
+        <input type="date">
+        <br>
+        <input type="email" placeholder="E-mail">
+        <br>
+        <input type="text" placeholder="Senha">
+        <br>
+        <label for="cbAtivo">Declaro que li e aceito os termos</label>
+        <input type="checkbox" name="ativo" id="cbAtivo">
+        <br>
+        <input type="button" value="Criar conta Gratis" onclick="alert('cadastro realizado com sucesso!!')" id="bt" >
+    </form>
+   </fieldset>
+    
+</body>
+</html>
